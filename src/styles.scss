@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&family=Exo+2&family=Kanit&family=Open+Sans&family=Roboto+Mono:ital@0;1&family=Ubuntu:wght@300&display=swap');
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+body{
+    font-family: "Ubuntu", sans-serif;
+    overflow-x: hidden;
+}
