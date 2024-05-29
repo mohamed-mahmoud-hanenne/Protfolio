@@ -1,27 +1,38 @@
-# Protfolio
+## Mon Portfolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.5.
+Bienvenue sur mon portfolio! Ce projet est un site web développé avec Angular qui contient les pages suivantes :
 
-## Development server
+- **Page d'accueil**: Une page d'accueil qui introduit le visiteur à mon portfolio.
+- **À propos de moi**: Cette page affiche mes expériences professionnelles et mon éducation.
+- **Projets**: Une page qui affiche des exemples de mes projets.
+- **Contact**: Une page de contact qui permet aux visiteurs de m'envoyer des emails.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Technologies utilisées
 
-## Code scaffolding
+- **Angular**: Le framework JavaScript pour créer des applications web dynamiques.
+- **Bootstrap**: Un framework CSS pour créer des interfaces utilisateur réactives et modernes.
+- **EmailJSResponseStatus**: Un service qui permet d'envoyer des emails à partir de votre site web.
+- **SweetAlert2**: Une bibliothèque pour afficher de belles alertes et notifications.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Installation
 
-## Build
+1. Clonez ce repository GitHub.
+2. Assurez-vous que Node.js et Angular CLI sont installés sur votre système.
+3. Accédez au répertoire du projet dans votre terminal.
+4. Exécutez `npm install` pour installer les dépendances.
+5. Exécutez `ng serve` pour démarrer le serveur de développement.
+6. Ouvrez votre navigateur et accédez à « http://localhost:4200/ » pour utiliser l'application.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Configuration d'EmailJSResponseStatus
 
-## Running unit tests
+Pour configurer EmailJSResponseStatus, suivez les étapes suivantes 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Créez un compte sur EmailJS si vous n'en avez pas déjà un compte.
+2. Obtenez votre clé API et votre ID de service.
+3. Configurez les paramètres de votre application Angular en y ajoutant votre clé API et votre ID de service.
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+##Demo
 
-## Further help
+https://github.com/mohamed-mahmoud-hanenne/Protfolio/assets/96345931/5597cc77-2406-4446-ae10-987a493981a8
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
