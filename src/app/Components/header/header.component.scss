@@ -1,12 +1,21 @@
 .navbar {
     width: 97%;
     margin-left: 1%; 
+   
   }
 
   .active{
-    background-color: #e21e80;
+    background-color: #2f5bed;
     border-radius: 5px;
+  }
 
+  .navbar-nav{
+    font-weight: 800;
+  }
+
+  .navbar-brand{
+    color: #2f5bed;
+    font-weight: 900;
   }
 
   
