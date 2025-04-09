@@ -8,41 +8,41 @@
 // }
 
 
-// /* Animation pour le texte d'introduction */
-// .fs-3.fw-light.text-muted {
-//     opacity: 0;
-//     animation: fadeInUp 0.8s ease-out 0.2s forwards;
-// }
+/* Animation pour le texte d'introduction */
+.fs-3.fw-light.text-muted {
+    opacity: 0;
+    animation: fadeInUp 0.8s ease-out 0.2s forwards;
+}
 
-// /* Animation pour le titre principal */
-// .display-3.fw-bolder {
-//     opacity: 0;
-//     animation: fadeInUp 0.8s ease-out 0.4s forwards;
-// }
+/* Animation pour le titre principal */
+.display-3.fw-bolder {
+    opacity: 0;
+    animation: fadeInUp 0.8s ease-out 0.4s forwards;
+}
 
-// /* Animation pour le span avec dégradé */
-// .text-gradient {
-//     display: inline-block;
-//     background-clip: text;
-//     -webkit-background-clip: text;
-//     color: transparent;
-//     background-image: linear-gradient(90deg, #3b82f6, #8b5cf6);
-//     opacity: 0;
-//     animation: fadeInUp 0.8s ease-out 0.6s forwards, colorPulse 6s infinite alternate;
-// }
+/* Animation pour le span avec dégradé */
+.text-gradient {
+    display: inline-block;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(90deg, #3b82f6, #8b5cf6);
+    opacity: 0;
+    animation: fadeInUp 0.8s ease-out 0.6s forwards, colorPulse 6s infinite alternate;
+}
 
-// /* Animation pour l'image de profil */
-// .profile-img {
-//     opacity: 0;
-//     transform: perspective(500px) rotateY(15deg);
-//     animation: fadeInRotate 1s ease-out 0.8s forwards, subtleFloat 4s ease-in-out infinite 2s;
-//     box-shadow: 0 10px 30px rgba(59, 130, 246, 0.2);
-//     transition: transform 0.3s ease;
-// }
+/* Animation pour l'image de profil */
+.profile-img {
+    opacity: 0;
+    transform: perspective(500px) rotateY(15deg);
+    animation: fadeInRotate 1s ease-out 0.8s forwards, subtleFloat 4s ease-in-out infinite 2s;
+    box-shadow: 0 10px 30px rgba(59, 130, 246, 0.2);
+    transition: transform 0.3s ease;
+}
 
-// .profile-img:hover {
-//     transform: perspective(500px) rotateY(0deg) scale(1.02);
-// }
+.profile-img:hover {
+    transform: perspective(500px) rotateY(0deg) scale(1.02);
+}
 
 
 /* Container responsive */
